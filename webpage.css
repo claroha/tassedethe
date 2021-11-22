@@ -1,0 +1,84 @@
+
+body
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: justify;
+    background-color: rgb(194, 224, 238);
+    border:thin black solid;
+    width:75%;
+    min-width: 500px;
+    color: rgb(4, 52, 114);
+    margin: auto;
+}
+
+header
+{
+    background-color: rgb(220, 182, 255);
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+#banner
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+nav ul
+{
+    display: flex;
+}
+
+nav li
+{
+    margin-right: 25px;
+    justify-content: space-around;
+}
+
+nav a
+{
+    color: rgb(141, 6, 6);
+    padding-bottom: 5px;
+    font-size: large;
+}
+
+
+
+
+p
+{   
+
+    font-size:medium;
+    word-wrap: break-word;
+}
+
+h1
+{
+    color: rgb(141, 6, 6);
+    font-size: large;
+}
+
+#Presentation
+{
+    border:thin solid black;
+    padding: 10px;
+    margin:20px;
+    background-color: rgb(255, 252, 249);
+    width: 75%;
+    height: 50%;
+    overflow:auto;
+}
+
+em
+{
+    font-weight: bold;
+}
+
+.im-ateliers
+{
+    float:left;
+}
+
